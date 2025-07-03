@@ -398,3 +398,12 @@ li.archive-list-item:hover a {
 ::-webkit-scrollbar-corner {
   background: white;
 }
+
+
+/* 首页头图样式（只作用首页） */
+header.intro-header {
+  background-size: cover; /* 图片缩放方式，cover, contain,auto */
+  background-position: center 20%; /* 图片显示位置，center,top*/
+  background-repeat: no-repeat;
+  min-height: 520px; /*最小高度*/
+}
